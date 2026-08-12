@@ -1,0 +1,16 @@
+
+$TTL 86400
+@     IN     SOA    maliserver.bungkus.org.    root.bungkus.org. (
+                    2001062504 ; serial
+                    21600      ; refresh after 6 hours
+                    3600       ; retry after 1 hour
+                    604800     ; expire after 1 week
+                    86400 )    ; minimum TTL of 1 day
+
+;Name server information
+@      IN     NS     maliserver.bungkus.org.
+ 
+;Reverse lookup for name server and IP address to Hostname
+
+4    IN     PTR    maliserver.bungkus.org
+40    IN     PTR    maliclient.bungkus.org.
