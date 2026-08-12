@@ -43,4 +43,4 @@ Postfix SASL Integration: Diagnosed SMTP authentication failures by tracing them
 Firewall SMTPS Port: Identified that port 465 (SMTPS) was not listening because the service definition was commented out in master.cf, and the port was missing from firewalld rules.
 📄 Full Documentation
 For a comprehensive, step-by-step breakdown of the installation, configuration, and troubleshooting process, please read the full project report:
-https://github.com/tanmay1802-art/-linux-enterprise-infrastructure/blob/main/Project_Report.pdf
+Project_Report.pdf
