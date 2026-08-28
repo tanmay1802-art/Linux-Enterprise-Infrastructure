@@ -35,6 +35,16 @@ Configured sshd, dovecot, and recidive jails.
 Integrated with Firewalld using the firewallcmd-ipset backend.
 Successfully tested live brute-force attack mitigation from the client machine, confirming automated IP banning and unbanning.
 Files: Security Directory
+   ### Site-to-Site VPN (WireGuard)
+   Configured a WireGuard tunnel between maliserver and maliclient.
+   Debugged a one-directional handshake failure down to a mismatched public key using packet capture and kernel debug logs.
+   Files: VPN Directory
+
+   ### SSH Honeypot (Cowrie)
+   Deployed Cowrie as a decoy SSH service, relocating real admin access to port 2200.
+   Captured full attacker session logs (commands + source IP) during a live simulated attack.
+   Files: Honeypot Directory
+   
 🐛 Troubleshooting Highlights
 During deployment, 13 distinct integration issues were identified and resolved independently. Notable examples include:
 
